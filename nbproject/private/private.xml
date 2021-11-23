@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/controller/NaslovnicaController.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/controller/KosaricaController.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/model/Artikal.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/controller/LoginController.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/controller/ArtikalController.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/controller/ShopController.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/controller/KontaktiController.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/kosarica.css</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/model/Konekcija.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/model/Kategorija.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/model/KontaktModel.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/controller/MenuController.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/Kategorije.fxml</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/Kontakti.fxml</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/controller/TransakcijeController.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/model/Baza.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/Login.fxml</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/Artikal.fxml</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/model/Transakcija.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/AppProject.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/Naslovnica.fxml</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/model/LogiraniKorisnik.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/povratak.png</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/controller/KategorijeController.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/model/Kosarica.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/Kosarica.fxml</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/Menu.fxml</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/login.css</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/model/TransakcijaArtikal.java</file>
+            <file>file:/C:/Users/RB%20computer/Documents/NetBeansProjects/AppProject/src/appproject/view/shopp.css</file>
+        </group>
+    </open-files>
+</project-private>

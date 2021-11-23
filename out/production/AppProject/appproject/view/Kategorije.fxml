@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="win" prefHeight="620.0" prefWidth="1090.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appproject.controller.KategorijeController">
+   <children>
+      <ImageView fx:id="vratiSe" fitHeight="45.0" fitWidth="45.0" layoutX="1025.0" layoutY="20.0" onMouseClicked="#povratak" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+        <image>
+              <Image url="@povratak1.png" />
+        </image>
+      </ImageView>
+      <AnchorPane fx:id="page1" layoutX="10.0" layoutY="10.0" prefHeight="605.0" prefWidth="1075.0" style="-fx-background-color: #f0f0f0; -fx-background-radius: 10;">
+         <children>
+            <AnchorPane fx:id="kat1" layoutX="90.0" layoutY="40.0" onMouseClicked="#k1" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: rgb(220,220,220); -fx-background-radius: 20;">
+               <children>
+                  <Label alignment="CENTER" layoutX="15.0" layoutY="194.0" prefHeight="42.0" prefWidth="220.0" text="Hrana i piće">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="160.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@hrana_i_pice.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect></AnchorPane>
+            <AnchorPane fx:id="kat2" layoutX="420.0" layoutY="40.0" onMouseClicked="#k2" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: rgb(220,220,220); -fx-background-radius: 20;">
+               <children>
+                  <ImageView fitHeight="160.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@kuhinja.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="15.0" layoutY="194.0" prefHeight="42.0" prefWidth="220.0" text="Kuhinja">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <AnchorPane fx:id="kat6" layoutX="90.0" layoutY="330.0" onMouseClicked="#k4" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: rgb(220,220,220); -fx-background-radius: 20;">
+               <children>
+                  <ImageView fitHeight="160.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@uredski_pribor.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="15.0" layoutY="194.0" onMouseClicked="#k4" prefHeight="42.0" prefWidth="220.0" text="Uredski pribor">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect></AnchorPane>
+            <AnchorPane fx:id="kat3" layoutX="750.0" layoutY="40.0" onMouseClicked="#k3" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: rgb(220,220,220); -fx-background-radius: 20;">
+               <children>
+                  <ImageView fitHeight="160.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@higijena.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="15.0" layoutY="194.0" prefHeight="42.0" prefWidth="220.0" text="Higijena">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect></AnchorPane>
+            <AnchorPane fx:id="kat5" layoutX="420.0" layoutY="330.0" onMouseClicked="#k5" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: rgb(220,220,220); -fx-background-radius: 20;">
+               <children>
+                  <ImageView fitHeight="160.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@djeca.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="15.0" layoutY="194.0" prefHeight="42.0" prefWidth="220.0" text="Djeca">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect></AnchorPane>
+            <AnchorPane fx:id="kat4" layoutX="750.0" layoutY="330.0" onMouseClicked="#k0" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: rgb(220,220,220); -fx-background-radius: 20;">
+               <children>
+                  <ImageView fitHeight="160.0" fitWidth="200.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@ostalo.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="15.0" layoutY="194.0" prefHeight="42.0" prefWidth="220.0" text="Ostalo">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect></AnchorPane>
+         </children>
+      </AnchorPane>
+      <Label fx:id="info" alignment="CENTER" prefHeight="70.0" prefWidth="1085.0" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

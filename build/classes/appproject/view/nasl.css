@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2018, 10:00:26 AM
+    Author     : RB computer
+*/
+
+.pagination > .pagination-control > .control-box {
+    -fx-spacing: 5;
+}
+.pagination .pagination-control .bullet-button {
+    -fx-scale-x: 1.5;
+    -fx-scale-y: 1.5;  
+    -fx-background-color: transparent, transparent, #f27015, white, transparent;
+}
+.pagination .pagination-control .bullet-button:selected {   
+    -fx-background-color: transparent, #f27015, white, white, #f5741a;
+}

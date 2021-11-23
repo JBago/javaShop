@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="window" maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appproject.controller.MenuController">
+    <stylesheets>
+        <URL value="@menu.css" />
+    </stylesheets>
+   <children>
+      <BorderPane fx:id="border_pane" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #b0b0b0;">
+         <top>
+            <AnchorPane maxHeight="90.0" prefHeight="90.0" prefWidth="1280.0" style="-fx-background-color: #f0f0f0;" BorderPane.alignment="CENTER">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Circle fill="#ea7821" layoutX="1227.0" layoutY="45.0" radius="24.0" stroke="#0000002f" strokeType="OUTSIDE" strokeWidth="1.4" />
+                  <Circle layoutX="64.5" layoutY="46.0" radius="39.0" stroke="#686868" strokeType="OUTSIDE" strokeWidth="2.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.0380952380952381" startY="0.03333333333333333">
+                           <stops>
+                              <Stop color="#ff8624" />
+                              <Stop color="#ff8624" offset="0.24137931034482743" />
+                              <Stop color="#864516" offset="0.8850574712643674" />
+                              <Stop color="#864516" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <ImageView fitHeight="85.0" fitWidth="90.0" layoutX="21.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="128.0" layoutY="13.0" prefHeight="63.0" prefWidth="256.0" text="e-Shop" textFill="#e8770e">
+                     <font>
+                        <Font name="Impact" size="48.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="1204.0" layoutY="25.0" onMouseClicked="#otvori_kosarica" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@cart1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="625.0" prefWidth="160.0" style="-fx-background-color: #ea7821;" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle fx:id="naslovnica" arcHeight="5.0" arcWidth="5.0" height="80.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="180.0">
+                     <fill>
+                        <LinearGradient endX="0.5" endY="1.0" startX="0.3">
+                           <stops>
+                              <Stop color="#b85416" />
+                              <Stop color="#ee8822" offset="0.17" />
+                              <Stop color="#cc6612" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Rectangle fx:id="shop" arcHeight="5.0" arcWidth="5.0" height="80.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="180.0" y="80.0">
+                     <fill>
+                         <LinearGradient endX="0.5" endY="1.0" startX="0.3">
+                           <stops>
+                              <Stop color="#b85416" />
+                              <Stop color="#ee8822" offset="0.17" />
+                              <Stop color="#cc6612" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Rectangle fx:id="kategorija" arcHeight="5.0" arcWidth="5.0" height="80.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="180.0" y="160.0">
+                     <fill>
+                        <LinearGradient endX="0.5" endY="1.0" startX="0.5" startY="0.3">
+                           <stops>
+                              <Stop color="#b85416" />
+                              <Stop color="#ee8822" offset="0.83" />
+                              <Stop color="#cc6612" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Rectangle fx:id="kosarica" arcHeight="5.0" arcWidth="5.0" height="80.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="180.0" y="160.0">
+                     <fill>
+                        <LinearGradient endX="0.5" endY="1.0" startX="0.5" startY="0.3">
+                           <stops>
+                              <Stop color="#b85416" />
+                              <Stop color="#ee8822" offset="0.83" />
+                              <Stop color="#cc6612" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Text fill="WHITE" layoutX="30.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Naslovnica">
+                     <font>
+                        <Font name="MS Outlook" size="26.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="40.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trgovina">
+                     <font>
+                        <Font name="MS Outlook" size="26.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="33.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kategorije">
+                     <font>
+                        <Font name="MS Outlook" size="26.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="42.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Košarica">
+                     <font>
+                        <Font name="MS Outlook" size="26.0" />
+                     </font>
+                  </Text>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cc661200" height="80.0" onMouseClicked="#otvori_naslovnica" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="180.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cc661200" height="80.0" onMouseClicked="#otvori_shop" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="180.0" y="80.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cc661200" height="80.0" onMouseClicked="#otvori_kategorija" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="180.0" y="160.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cc661200" height="80.0" layoutX="1.0" layoutY="80.0" onMouseClicked="#otvori_kosarica" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="180.0" y="160.0" />
+                  <AnchorPane layoutX="20.0" layoutY="566.0" minHeight="0.0" onMouseClicked="#odjava" prefHeight="45.0" prefWidth="144.0" style="-fx-background-color: #77777728; -fx-background-radius: 30; -fx-border-style: solid; -fx-border-radius: 30; -fx-border-color: #33333333;">
+                     <children>
+                        <Label alignment="CENTER" layoutX="4.0" layoutY="7.0" opacity="0.77" prefHeight="31.0" prefWidth="138.0" text="Odjavi se" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+               <effect>
+                  <DropShadow height="0.0" radius="4.75" />
+               </effect>
+            </AnchorPane>
+         </left>
+         <bottom>
+            <AnchorPane prefHeight="5.0" prefWidth="1280.0" style="-fx-background-color: #ea7821;" />
+         </bottom>
+         <right>
+            <AnchorPane prefHeight="200.0" prefWidth="5.0" style="-fx-background-color: #ea7821;" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <ScrollPane fx:id="center" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
